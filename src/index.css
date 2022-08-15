@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#container {
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 20px;
+}
+
+         
+#playerOButton {
+  background-color: blueviolet;
+  border: none;
+  display: block;
+  font-size: 25px;
+}
+
+#playerXButton {
+  background-color: darkmagenta;
+  border: none;
+  display: block;
+  font-size: 26px;
+}
+
+.txt{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+table.a {
+  white-space: nowrap;
+  margin-bottom: 0;
+  height: 500px;
+}
+
+
+.table-cells{
+  border:solid thin rgb(0, 119, 255);
+  text-align: center;
+  color: wheat;
+  line-height: 100px;
+  font-size: 90px;
+  vertical-align: middle;
+  width: 165px !important;
+  height: 165px !important; 
+  min-height: 165px;
+  min-width: 165px;
+  max-width: 165px;
+  max-height: 165px;
+  padding-top: 0px;
+  overflow: hidden;
+}
+.table-cells:hover {
+  background-color: #444444;
+  opacity: 0.5;
+}
+.disable-text-select {
+  user-select: none; /* supported by Chrome and Opera */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+.user-win{
+  outline: thin solid;
+  outline: 5px auto -webkit-focus-color;
+  outline-offset: -2px;
+}
+
+.custom-alert{
+  margin-top: 20px;
+  width: 31%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playerX-turn{
+  background: linear-gradient(to right, #282c34 50%, #e00303 55%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.playerO-turn{
+  background: linear-gradient(to right, #0066cc 49%, #282c34 51%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
