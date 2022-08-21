@@ -86,10 +86,13 @@ table.a {
 }
 
 
-.user-win{
-  outline: thin solid;
+.player-turn{
+  outline: 5px solid;
   outline: 5px auto -webkit-focus-color;
   outline-offset: -2px;
+  z-index: 99;
+  border-radius: 80px;
+  color: white;
 }
 
 .custom-alert{
