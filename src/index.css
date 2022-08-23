@@ -27,6 +27,7 @@ code {
   border: none;
   display: block;
   font-size: 25px;
+  transition: all 0.8s ease-in;
 }
 
 #playerXButton {
@@ -34,6 +35,7 @@ code {
   border: none;
   display: block;
   font-size: 26px;
+  transition: all 0.8s ease-in;
 }
 
 .txt{
