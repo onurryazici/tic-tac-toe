@@ -12,4 +12,4 @@ Install and start : ```npm install && npm start```,
 
 ## Screenshot
 
-![enter image description here](https://github.com/onurryazici/tic-tac-toe/blob/main/screenshots/src.png)
+![enter image description here](https://github.com/onurryazici/tic-tac-toe/blob/main/screenshot/src.png)
